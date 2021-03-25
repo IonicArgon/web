@@ -8,26 +8,47 @@ export default function Home() {
         <title>Home - IonicArgon</title>
       </Head>
 
-      <div class="max-w-2xl bg-white border-2 border-gray-300 p-5 rounded-md tracking-wide shadow-lg">
-        <div id="header" class="flex"> 
-          <img alt="mountain" class="w-60 h-60 rounded-md border-2 border-gray-300 object-cover" src="/square.jpg"/>
-          <div id="body" class="flex flex-col ml-5">
+      <figure class="md:flex md:w-auto bg-gray-100 rounded-xl overflow-hidden shadow-xl">
+        <img class="w-60 md:w-60 md:h-auto md:rounded-none rounded-full object-cover" src="/square.jpg" alt=""/>
+        <div class="md:p-8 text-center md:text-left space-y-4">
+          <blockquote>
             <h4 id="name" class="text-2xl font-semibold mb-2">ionicargon.vercel.app</h4>
-            <h4 id="subtitle" class="text-xl text-gray-600 font-semibold mb-2">
-              This website is under construction.
-            </h4>
-            <p id="job" class="text-gray-800 mt-2">
-              I'm finally trying to learn web development.<br></br>
-              This website <i>will</i> be made with Next.js and Tailwind CSS.<br></br>
-              I look forward to showing you what I can do.
+            <h4 id="subtitle" class="text-xl text-gray-500 font-medium mb-2">This website is under construction.</h4>
+            <br></br>
+            <p class="text-base font-normal">
+              I'm finally starting to learn web development. Once I know what I'm doing, I'll turn this into a proper website.<br></br>
+              Gonna make it using Next.js and Tailwind CSS.
             </p>
-            <div class="flex mt-5">
-              <img alt="avatar" class="w-6 rounded-full border-2 border-gray-300" src="/profile-pic.png"/>
-              <p class="ml-3">Marco Tan</p>
+          </blockquote>
+          <figcaption>
+            <div class="text-red-600 font-medium">Marco Tan</div>
+            <div class="text-gray-500 font-medium text-sm">IonicArgon</div>
+            <br></br>
+            <div class="space-x-2">
+              <a href="https://github.com/IonicArgon">
+                <button class="bg-black py-1 px-2 rounded-full text-white text-sm hover:text-gray-300">
+                  <span>GitHub</span>
+                </button>
+              </a>
+              <a href="https://www.instagram.com/marco_tan_04/">
+                <button class="bg-yellow-700 py-1 px-2 rounded-full text-white text-sm hover:bg-yellow-800">
+                  <span>Instagram</span>
+                </button>
+              </a>
+              <a href="https://www.linkedin.com/in/marco-tan-9191021a3/">
+                <button class="bg-blue-500 py-1 px-2 rounded-full text-white text-sm hover:bg-blue-600">
+                  <span>LinkedIn</span>
+                </button>
+              </a>
+              <a href="mailto:marco.tan.200405@gmail.com">
+                <button class="bg-red-500 py-1 px-2 rounded-full text-white text-sm hover:bg-red-600">
+                  <span>Email</span>
+                </button>
+              </a>
             </div>
-          </div>
+          </figcaption>
         </div>
-      </div>
+      </figure>
     </div>
   )
 }

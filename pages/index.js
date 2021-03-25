@@ -10,7 +10,7 @@ export default function Home() {
 
       <div class="max-w-2xl bg-white border-2 border-gray-300 p-5 rounded-md tracking-wide shadow-lg">
         <div id="header" class="flex"> 
-          <img alt="mountain" class="w-60 h-60 rounded-md border-2 border-gray-300 object-cover" src="/temp.jpg"/>
+          <img alt="mountain" class="w-60 h-60 rounded-md border-2 border-gray-300 object-cover" src="/square.jpg"/>
           <div id="body" class="flex flex-col ml-5">
             <h4 id="name" class="text-2xl font-semibold mb-2">ionicargon.vercel.app</h4>
             <h4 id="subtitle" class="text-xl text-gray-600 font-semibold mb-2">

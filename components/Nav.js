@@ -24,7 +24,7 @@ const Nav = ({ seasonID }) => {
 
   const handleClick = () => {
     setActive(!active);
-  }
+  };
 
   return (
     <>

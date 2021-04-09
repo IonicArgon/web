@@ -1,4 +1,4 @@
-import router, { useRouter } from 'next/router';
+import router, { useRouter } from "next/router";
 import Nav from "./Nav";
 import styles from "../styles/Layout.module.css";
 
@@ -31,6 +31,6 @@ const Layout = ({ children }) => {
       </div>
     </>
   );
-}
+};
 
 export default Layout;
